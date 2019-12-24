@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href="./index.css">
+    <script src="./index.js"></script>
+    <title>Перенос элементов</title>
+</head>
+<body>
+<div class="page-wrapper">
+    <div class="page-wrap">
+        <header>
+            <h1>Пример</h1>
+        </header>
+        <div class="main-container">
+            <div class="place-zone"></div>
+            <div class="set-elements">
+                <div class="button draggable">
+                    <p style="color: #ffffff; padding: 5px; text-align: center;">String</p>
+                    <div class="string draggable" style="padding: 5px; display: none;">
+                        <label style="color: #ffffff;" for="inputNumber">Комментарий к String</label>
+                        <input id="inputNumber" placeholder="Введите строку" value="">
+                    </div>
+                </div>
+                <div class="button draggable">
+                    <p style="color: #ffffff; padding: 5px; text-align: center;">Number</p>
+                    <div class="number draggable" style="padding: 5px; display: none;">
+                        <label style="color: #ffffff;" for="inputString">Комментарий к Number</label>
+                        <input id="inputString" placeholder="Введите число" value="">
+                    </div>
+                </div>
+                <div class="button draggable">
+                    <p style="color: #ffffff; padding: 5px; text-align: center;">Layout</p>
+                    <div class="layout draggable" style="display: none;"></div>
+                </div>
+                <div class="trash">
+                    <p style="color: #ffffff; padding: 5px; text-align: center;">Trash</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
